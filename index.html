@@ -1,0 +1,864 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<script type="text/javascript" src="engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Proyecto Final</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app8.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('data1/images/csharp.jpg','data1/images/javascript.jpg','data1/images/php.jpg','data1/images/python.jpg','data1/images/ruby.jpg','data1/images/self.jpg','data1/images/visualbasic.jpg')"> 
+
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>DSAUPOO</h1>
+  </div>
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/atributo.jpg" alt="atributo" title="atributo" id="wows2_0"/></li>
+		<li><img src="data2/images/clase.jpg" alt="clase" title="clase" id="wows2_1"/></li>
+		<li><img src="data2/images/componentesdeobjeto.jpg" alt="componentesdeobjeto" title="componentesdeobjeto" id="wows2_2"/></li>
+		<li><img src="data2/images/evento.jpg" alt="evento" title="evento" id="wows2_3"/></li>
+		<li><img src="data2/images/eventointerno.jpg" alt="eventointerno" title="eventointerno" id="wows2_4"/></li>
+		<li><img src="data2/images/herencia.jpg" alt="herencia" title="herencia" id="wows2_5"/></li>
+		<li><img src="data2/images/identificarobjeto.png" alt="identificarobjeto" title="identificarobjeto" id="wows2_6"/></li>
+		<li><img src="data2/images/mensaje.jpg" alt="mensaje" title="mensaje" id="wows2_7"/></li>
+		<li><img src="data2/images/metodo.jpg" alt="metodo" title="metodo" id="wows2_8"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/objeto.jpg" alt="html5 slider" title="objeto" id="wows2_9"/></a></li>
+		<li><img src="data2/images/propiedad.jpg" alt="propiedad" title="propiedad" id="wows2_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atributo"><span><img src="data2/tooltips/atributo.jpg" alt="atributo"/>1</span></a>
+		<a href="#" title="clase"><span><img src="data2/tooltips/clase.jpg" alt="clase"/>2</span></a>
+		<a href="#" title="componentesdeobjeto"><span><img src="data2/tooltips/componentesdeobjeto.jpg" alt="componentesdeobjeto"/>3</span></a>
+		<a href="#" title="evento"><span><img src="data2/tooltips/evento.jpg" alt="evento"/>4</span></a>
+		<a href="#" title="eventointerno"><span><img src="data2/tooltips/eventointerno.jpg" alt="eventointerno"/>5</span></a>
+		<a href="#" title="herencia"><span><img src="data2/tooltips/herencia.jpg" alt="herencia"/>6</span></a>
+		<a href="#" title="identificarobjeto"><span><img src="data2/tooltips/identificarobjeto.png" alt="identificarobjeto"/>7</span></a>
+		<a href="#" title="mensaje"><span><img src="data2/tooltips/mensaje.jpg" alt="mensaje"/>8</span></a>
+		<a href="#" title="metodo"><span><img src="data2/tooltips/metodo.jpg" alt="metodo"/>9</span></a>
+		<a href="#" title="objeto"><span><img src="data2/tooltips/objeto.jpg" alt="objeto"/>10</span></a>
+		<a href="#" title="propiedad"><span><img src="data2/tooltips/propiedad.jpg" alt="propiedad"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section --> 
+    
+<div data-role="main" class="ui-content" align="center">
+    	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    	<li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        DEFINICIÓN<br>Programación Orientada a Objetos
+       	  </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	CONCEPTOS FUNDAMENTALES<BR>Objeto, Evento, Atributo, Propiedad, étc.
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	CARACTERÍTICAS<BR> Las siguientes son las más importantes
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	TIPOS<BR>Existen dos corrientes principales
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	LENGUAJES ORIENTADOS<BR>C#, JavaScript, Visual Basic, étc.
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	CLASE<BR>Sintaxis para generar una clase
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	CONTENIDO DE UNA CLASE<BR>Se componen de elementos
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	CONSTRUCTOR DE UNA CLASE<BR>Miembro que implementa las acciones
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	TIPOS DE VARIABLES<BR>De instancia, referencia, de clase
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	MODIFICADORES DE ACCESO<BR>Cómo clasificamos nuestras propiedades
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	Acerca de
+        	</a>
+        </li>
+     </ul>
+</div>
+    
+     
+<div data-role="footer" align="center" data-theme="a" data-position="fixed"> <br>
+<center><img src="res/android/mdpi.png" width="46" height="46"></center>
+    	Brian  Hernández Ramírez<br>App10 Proyecto Final
+        <br>
+        <br>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>DEFINICÓN</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            La programación orientada a objetos o POO (OOP según sus siglas en inglés) es un paradigma de programación que usa los objetos en sus interacciones, para diseñar aplicaciones y programas informáticos.
+
+Está basado en varias técnicas, incluyendo herencia, cohesión, abstracción, polimorfismo, acoplamiento y encapsulamiento.
+
+Su uso se popularizó a principios de la década de los años 1990. En la actualidad, existe variedad de lenguajes de programación que soportan la orientación a objetos.
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://es.wikibooks.org/wiki/Programaci%C3%B3n_Orientada_a_Objetos" target="_self" data-role="button" id="enlace1">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CONCEPTOS FUNDAMENTALES</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Clase</h4>
+            Una clase se puede definir de las propiedades y comportamiento de un tipo de objeto concreto. La instanciación es la lectura de estas definiciones y la creación de un objeto a partir de ella.
+       		  </div>
+ 	</div>
+   <center> <img src="data2/images/clase.jpg" width="100%" alt="clase"> </center> 
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Herencia</h4>
+            La herencia se da cuando una clase hereda sus propiedades y métodos a otra clase, ésta segunda se convierte en la subclase y la primera en clase superior o clase padre. Es decir, una clase base o clase padre le hereda sus propiedades a la clase hija o subclase.
+  		</div>
+ 	</div>
+    <center><img src="data2/images/herencia.jpg" width="100%" alt="imágen de herencia"></center>
+<div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Objeto</h4>
+            Instancia de una clase. Entidad provista de un conjunto de propiedades o atributos (datos) y de comportamiento o funcionalidad (métodos), los mismos que consecuentemente reaccionan a eventos. Se corresponden con los objetos reales del mundo que nos rodea, o con objetos internos del sistema (del programa).
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/objeto.jpg" width="100%" alt="imágen de objeto">
+    </center>
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Método</h4>
+            Algoritmo asociado a un objeto (o a una clase de objetos), cuya ejecución se desencadena tras la recepción de un "mensaje". Desde el punto de vista del comportamiento, es lo que el objeto puede hacer. Un método puede producir un cambio en las propiedades del objeto, o la generación de un "evento" con un nuevo mensaje para otro objeto del sistema.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/metodo.jpg" width="100%" alt="imágen de método">
+    </center>
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Evento</h4>
+            Es un suceso en el sistema (tal como una interacción del usuario con la máquina, o un mensaje enviado por un objeto). El sistema maneja el evento enviando el mensaje adecuado al objeto pertinente. También se puede definir como evento la reacción que puede desencadenar un objeto; es decir, la acción que genera.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/evento.jpg" width="100%" alt="imágen de objeto">
+    </center>
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Atributos</h4>
+            Características que tiene la clase.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/atributo.jpg" width="100%" alt="imágen de atributos">
+    </center>
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Mensaje</h4>
+            Una comunicación dirigida a un objeto, que le ordena que ejecute uno de sus métodos con ciertos parámetros asociados al evento que lo generó.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/mensaje.jpg" width="100%" alt="imágen de mensaje">
+    </center>
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Propiedad o atributo</h4>
+            Contenedor de un tipo de datos asociados a un objeto (o a una clase de objetos), que hace los datos visibles desde fuera del objeto y esto se define como sus características predeterminadas, y cuyo valor puede ser alterado por la ejecución de algún método.
+  		</div>
+ 	</div>
+    <center>
+    <img src="data2/images/propiedad.jpg" width="100%" alt="imágen de propiedad"></center>
+<div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Estado interno</h4>
+            Es una variable que se declara privada, que puede ser únicamente accedida y alterada por un método del objeto, y que se utiliza para indicar distintas situaciones posibles para el objeto (o clase de objetos). No es visible al programador que maneja una instancia de la clase.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/eventointerno.jpg" width="100%" alt="imagen de estado alterno">
+    </center>
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Componentes de un objeto</h4>
+            Atributos, identidad, relaciones y métodos.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/componentesdeobjeto.jpg" width="100%" alt="imágen de componentes de un objeto">
+    </center>
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Identificación de un objeto</h4>
+            Un objeto se representa por medio de una tabla o entidad que esté compuesta por sus atributos y funciones correspondientes.
+  		</div>
+ 	</div>
+    <center>
+      <img src="data2/images/identificarobjeto.png" width="100%" alt="identificación de objeto imágen">
+    </center>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#Conceptos_fundamentales" target="_self" data-role="button" id="enlace2">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CARACTERÍSTICAS</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Abstracción</h4>
+            Denota las características esenciales de un objeto, donde se capturan sus comportamientos. Cada objeto en el sistema sirve como modelo de un "agente" abstracto que puede realizar trabajo, informar y cambiar su estado, y "comunicarse" con otros objetos en el sistema sin revelar "cómo" se implementan estas características. Los procesos, las funciones o los métodos pueden también ser abstraídos, y, cuando lo están, una variedad de técnicas son requeridas para ampliar una abstracción. El proceso de abstracción permite seleccionar las características relevantes dentro de un conjunto e identificar comportamientos comunes para definir nuevos tipos de entidades en el mundo real. La abstracción es clave en el proceso de análisis y diseño orientado a objetos, ya que mediante ella podemos llegar a armar un conjunto de clases que permitan modelar la realidad o el problema que se quiere atacar.
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Encapsulamiento</h4>
+            Significa reunir todos los elementos que pueden considerarse pertenecientes a una misma entidad, al mismo nivel de abstracción. Esto permite aumentar la cohesión (diseño estructurado) de los componentes del sistema. Algunos autores confunden este concepto con el principio de ocultación, principalmente porque se suelen emplear conjuntamente.
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Polimorfismo</h4>
+             A través de la herencia, una clase puede utilizarse como más de un tipo; puede utilizarse como su propio tipo, o como el tipo de su clase base.
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Herencia</h4>
+            Las clases no se encuentran aisladas, sino que se relacionan entre sí, formando una jerarquía de clasificación. Los objetos heredan las propiedades y el comportamiento de todas las clases a las que pertenecen. La herencia organiza y facilita el polimorfismo y el encapsulamiento, permitiendo a los objetos ser definidos y creados como tipos especializados de objetos preexistentes. Estos pueden compartir (y extender) su comportamiento sin tener que volver a implementarlo. Esto suele hacerse habitualmente agrupando los objetos en clases y estas en árboles o enrejados que reflejan un comportamiento común. Cuando un objeto hereda de más de una clase se dice que hay herencia múltiple; siendo de alta complejidad técnica por lo cual suele recurrirse a la herencia virtual para evitar la duplicación de datos.
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Modularidad</h4>
+            Se denomina "modularidad" a la propiedad que permite subdividir una aplicación en partes más pequeñas (llamadas módulos), cada una de las cuales debe ser tan independiente como sea posible de la aplicación en sí y de las restantes partes. Estos módulos se pueden compilar por separado, pero tienen conexiones con otros módulos. Al igual que la encapsulación, los lenguajes soportan la modularidad de diversas formas.
+  		</div>
+ 	</div>
+    
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Principio de ocultación</h4>
+            Cada objeto está aislado del exterior, es un módulo natural, y cada tipo de objeto expone una "interfaz" a otros objetos que especifica cómo pueden interactuar con los objetos de la clase. El aislamiento protege a las propiedades de un objeto contra su modificación por quien no tenga derecho a acceder a ellas; solamente los propios métodos internos del objeto pueden acceder a su estado. Esto asegura que otros objetos no puedan cambiar el estado interno de un objeto de manera inesperada, eliminando efectos secundarios e interacciones inesperadas. Algunos lenguajes relajan esto, permitiendo un acceso directo a los datos internos del objeto de una manera controlada y limitando el grado de abstracción. La aplicación entera se reduce a un agregado o rompecabezas de objetos.
+  		</div>
+ 	</div>
+    
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Recolección de basura</h4>
+            La recolección de basura (garbage collection) es la técnica por la cual el entorno de objetos se encarga de destruir automáticamente, y por tanto desvincular la memoria asociada, los objetos que hayan quedado sin ninguna referencia a ellos. Esto significa que el programador no debe preocuparse por la asignación o liberación de memoria, ya que el entorno la asignará al crear un nuevo objeto y la liberará cuando nadie lo esté usando. En la mayoría de los lenguajes híbridos que se extendieron para soportar el Paradigma de Programación Orientada a Objetos como C++ u Object Pascal, esta característica no existe y la memoria debe desasignarse expresamente.
+  		</div>
+ 	</div>
+    
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#Caracter%C3%ADsticas_de_la_POO" target="_self" data-role="button" id="enlace3">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>TIPOS</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            <ul>
+            <li>
+    Basarse en clases.- Es la más ampliamente usada por los lenguajes de programación orientada a objetos POO. Por ejemplo es usada por Java, C++ y C#. Se basa en crear una estructura molde llamada clase donde se especifican los campos y métodos que tendrán nuestros objetos. Cada vez que necesitamos un objeto creamos una instancia (o copia del objeto) usando la clase como molde.</li>
+   <li> Basarse en prototipos.- Es soportado en Javascript, Python y Ruby. No hay clases, solo hay objetos. El mecanismo para la reutilización está dado por la clonación de objetos. Se crean directamentos objetos y cuando se quiere generar otro con la misma estructura se usa clonación. Una vez clonado si queremos podemos agregar los campos y métodos necesarios. Un objeto prototípico es un objeto que se utiliza como una plantilla a partir de la cual se obtiene el conjunto inicial de propiedades de un objeto. Cualquier objeto puede ser utilizado como el prototipo de otro objeto, permitiendo al segundo objeto compartir las propiedades del primero.</li>
+</ul>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="http://www.edu4java.com/es/conceptos/clases-instancias-prototipos-herencia-poo.html" target="_self" data-role="button" id="enlace4">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>LENGUAJES ORIENTADOS</h1>
+     </div>
+     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/csharp.jpg" alt="csharp" title="csharp" id="wows1_0"/></li>
+		<li><img src="data1/images/csharp2.jpg" alt="csharp2" title="csharp2" id="wows1_1"/></li>
+		<li><img src="data1/images/javascript.jpg" alt="javascript" title="javascript" id="wows1_2"/></li>
+		<li><img src="data1/images/javascript2.jpg" alt="javascript2" title="javascript2" id="wows1_3"/></li>
+		<li><img src="data1/images/php.jpg" alt="php" title="php" id="wows1_4"/></li>
+		<li><img src="data1/images/php2.png" alt="php2" title="php2" id="wows1_5"/></li>
+		<li><img src="data1/images/python.jpg" alt="python" title="python" id="wows1_6"/></li>
+		<li><img src="data1/images/python2.jpg" alt="python2" title="python2" id="wows1_7"/></li>
+		<li><img src="data1/images/ruby.jpg" alt="ruby" title="ruby" id="wows1_8"/></li>
+		<li><img src="data1/images/ruby2.jpg" alt="ruby2" title="ruby2" id="wows1_9"/></li>
+		<li><img src="data1/images/self.jpg" alt="self" title="self" id="wows1_10"/></li>
+		<li><img src="data1/images/self2.jpg" alt="self2" title="self2" id="wows1_11"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/visualbasic.jpg" alt="javascript image slider" title="visualbasic" id="wows1_12"/></a></li>
+		<li><img src="data1/images/visualbasic2.jpg" alt="visualbasic2" title="visualbasic2" id="wows1_13"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="csharp"><span><img src="data1/tooltips/csharp.jpg" alt="csharp"/>1</span></a>
+		<a href="#" title="csharp2"><span><img src="data1/tooltips/csharp2.jpg" alt="csharp2"/>2</span></a>
+		<a href="#" title="javascript"><span><img src="data1/tooltips/javascript.jpg" alt="javascript"/>3</span></a>
+		<a href="#" title="javascript2"><span><img src="data1/tooltips/javascript2.jpg" alt="javascript2"/>4</span></a>
+		<a href="#" title="php"><span><img src="data1/tooltips/php.jpg" alt="php"/>5</span></a>
+		<a href="#" title="php2"><span><img src="data1/tooltips/php2.png" alt="php2"/>6</span></a>
+		<a href="#" title="python"><span><img src="data1/tooltips/python.jpg" alt="python"/>7</span></a>
+		<a href="#" title="python2"><span><img src="data1/tooltips/python2.jpg" alt="python2"/>8</span></a>
+		<a href="#" title="ruby"><span><img src="data1/tooltips/ruby.jpg" alt="ruby"/>9</span></a>
+		<a href="#" title="ruby2"><span><img src="data1/tooltips/ruby2.jpg" alt="ruby2"/>10</span></a>
+		<a href="#" title="self"><span><img src="data1/tooltips/self.jpg" alt="self"/>11</span></a>
+		<a href="#" title="self2"><span><img src="data1/tooltips/self2.jpg" alt="self2"/>12</span></a>
+		<a href="#" title="visualbasic"><span><img src="data1/tooltips/visualbasic.jpg" alt="visualbasic"/>13</span></a>
+		<a href="#" title="visualbasic2"><span><img src="data1/tooltips/visualbasic2.jpg" alt="visualbasic2"/>14</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     	<div data-role="content" align="center">
+     		<div align="justify">
+             <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>C Sharp (C#)</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image77','','data1/images/csharp.jpg',1)"><img src="data1/images/csharp2.jpg" alt="C Sharp (C#)" width="100%" id="Image77"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>JavaScript</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image78','','data1/images/javascript.jpg',1)"><img src="data1/images/javascript2.jpg" alt="logo de javascript" width="100%" id="Image78"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>PHP</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image79','','data1/images/php.jpg',1)"><img src="data1/images/php2.png" alt="logo de php" width="100%" id="Image79"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Python</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image80','','data1/images/python.jpg',1)"><img src="data1/images/python2.jpg" alt="logo de python" width="100%" id="Image80"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+    <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Ruby</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image81','','data1/images/ruby.jpg',1)"><img src="data1/images/ruby2.jpg" alt="logo de ruby" width="100%" id="Image81"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Self</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image82','','data1/images/self.jpg',1)"><img src="data1/images/self2.jpg" alt="logo de self" width="100%" id="Image82"></a>
+            </center>
+  		</div>
+ 	</div>
+    
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>Visual Basic 6.0</h4>
+            <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image83','','data1/images/visualbasic.jpg',1)"><img src="data1/images/visualbasic2.jpg" alt="logo de visual basic 6.0" width="100%" id="Image83"></a>
+            </center>
+  		</div>
+ 	</div>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#Algunos_lenguajes_orientados_a_objetos" target="_self" data-role="button" id="enlace5">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CLASE</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            Al igual que un diseñador crea prototipos de dispositivos que podrían utilizarse en repetidas ocasiones para construir los dispositivos reales, una clase es un prototipo de software que puede utilizarse para instanciar (es decir crear) muchos objetos iguales.
+
+También lo podemos visualizar como un molde, sí, por ejemplo uno para hacer gelatinas, con ese molde podemos hacer muchas gelatinas con la misma forma y tamaño. Pues ese molde sería nuestra clase y la instancia de una clase sería nuestro objeto.
+<h1>Sintaxis para generar una clase</h1>
+<center>
+<img src="res/images/codigo.png" width="95%" alt="código"><br></center>
+            <br>
+<h1>Ejemplo</h1>
+<center><img src="res/images/POO3.png" width="95%" alt="código de ejemplo"></center>
+<center>
+  
+</center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://www.northware.mx/programacion_orientada_objetos/" target="_self" data-role="button" id="enlace6">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CONTENIDO</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            Los miembros de una clase son un conjunto de elementos que definen a los objetos (atributos ó propiedades), así como los comportamientos o funciones (métodos) que maneja el objeto.<br>
+Entonces tenemos que una clase es la estructura de un objeto, es decir, la definición de todos los elementos de que está hecho un objeto.<br>
+Los atributos se declaran de la siguiente forma:
+<center><img src="res/images/codigo2.png" width="95%" alt="codigo"></center>
+Los métodos de una clase se declaran de la siguiente forma:
+<center><img src="res/images/codigo3.png" width="95%" alt="codigo"></center>
+ <h1>Ej. Declaración de atributos (sup.) y declaración de métodos (inf.)</h1>
+ <center>
+   <img src="res/images/POO4.png" width="100%" alt="CODIGO"><br>
+   <img src="res/images/POO42.png" width="100%" alt="CODIGO">
+ </center>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://www.northware.mx/programacion_orientada_objetos/" target="_self" data-role="button" id="enlace7">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>CONSTRUCTOR</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+            El constructor es un miembro que implementa las acciones requeridas para inicializar la instancia de una clase. El constructor es invocado cuando se usa el operador new.
+
+El constructor es parecido a los métodos, pero no tiene un tipo de retorno y su nombre es el mismo que el de la clase y también puede o no recibir parámetro como los métodos. Sin embargo hay que tener mucho cuidado al nombrar los parámetros tanto del constructor como de los métodos para no confundirlos con las variables propias de la clase. Por ejemplo:
+<center><img src="res/images/POO6.png" width="100%" alt="CODIGO">
+</center>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://www.northware.mx/programacion_orientada_objetos/" target="_self" data-role="button" id="enlac8">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>TIPOS DE VARIABLES</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+           <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>De instancia</h4>
+            Son aquellas que se declaran dentro de una clase y que no existen hasta que se hace una instancia de esa clase (se crea un objeto)
+            <center><img src="res/images/codigo4.png" width="100%" alt="código"><h2>Ejemplo:</h2><img src="res/images/febrero-2-9.png" width="100%" alt="codigoejemplo"></center> </div>
+ 	</div>
+     <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>De referencia</h4>
+            Son aquellas que hace referencia a otra clase. Esto se puede definir mejor diciendo que es una variable del tipo de otra clase, y cuando se haga la instancia tendremos: un objeto dentro de otro objeto.
+            <center><img src="res/images/codigo5.png" width="100%" alt="código"><h2>Ejemplo:</h2><img src="res/images/febrero-2-10.png" width="100%" alt="codigoejemplo"></center>
+  		</div>
+ 	</div>
+     <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+    		<h4>De clase</h4>
+           Estas variables se declaran antemoniendo la palabra static a su declaración, y a diferencia de las variables de instancia, éstas no necesitan que se haga una instancia (que se cree un objeto), existen desde que se crea la clase.
+            <center><img src="res/images/codigo6.png" width="100%" alt="código"><h2>Ejemplo:</h2><img src="res/images/febrero-2-11.png" width="100%" alt="codigoejemplo"></center>
+  		</div>
+ 	</div>
+    Una vez que tenemos definidos todos los miembros de una clase, ¿Cómo accedemos a ellos?Para acceder a los miembros de un objeto, se utiliza la notación de pinto. El operador punto (.) permite acceder a los atributos y métodos que componen los miembros no privados de una clase.Dentro de la definición de los métodos no es necesario usar la notación de punto para acceder a un atributo de la propia clase.
+            <br>
+            <br>
+             <center>
+              
+             </center>
+             <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://www.northware.mx/programacion_orientada_objetos/" target="_self" data-role="button" id="enlace9">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+<div>
+		<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>MODIFICADORES DE ACCESO</h1>
+     </div>
+     	<div data-role="content" align="center">
+     		<div align="justify">
+          Es la forma en cómo clasificamos nuestras propiedades o métodos para hacerlos visibles o invisibles a quienes usen un objeto de una clase que creamos.<br>
+
+Los modificadores de acceso son: Public, Private, Protected.<br>
+
+En seguida muestro en una tabla la visibilidad de los miembros de una clase dependiendo del modificador de acceso que tengan.<br>
+<center><img src="res/images/POO8.png" width="100%" alt="tabla"></center>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+ 		</div a>
+        <div data-role="main" class="ui-content" align="center">
+    	<div>
+        	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+            	<li class="ui-first-child ui-last-child">
+                	<a href="https://www.northware.mx/programacion_orientada_objetos/" target="_self" data-role="button" id="enlace10">
+                    	Más información
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+   
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>DESARROLLADOR</h1>
+     </div>
+     	<div data-role="content" align="center">
+            <h1>Brian Hernández Ramírez<br><br>
+            4° semestre, Grupo "H"<br><br>
+            Desarrolla Aplicaciones Móviles<br><br>
+            Lic. José Antonio Gómez Hernández</h1>
+            <br>
+            <br>
+             <center>
+              
+             </center> <br>
+                <br>
+
+        <div data-role="main" class="ui-content" align="center">
+	</div>
+	</div a>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    	<div>
+        <br>
+        	<img src="res/android/mdpi.png" width="46" height="46"><br>
+            Brian Hernández Ramírez
+            <div>
+ 			<br>
+            </div>
+            </div>
+       </div>
+   </div>  
+
+</body>
+</html>
